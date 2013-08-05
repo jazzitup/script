@@ -1,0 +1,10 @@
+CurrentDir=$PWD
+RANDOM=101
+seed=$RANDOM
+for (( i=1 ; i<=___max___ ; i++))
+  do
+  hiNumber=$[(($seed + i ) % ___max___ + 1)]
+  echo $hiNumber
+  condor64.sh run.sh  $i   $CurrentDir $hiNumber
+done
+

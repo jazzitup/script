@@ -1,0 +1,17 @@
+export PATH=$PATH:/Users/yongsun/root/bin:/Users/Yongsun/scripts
+export ROOTSYS=/Users/yongsun/root
+export DISPLAY=:0.0
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+#for cvs from CERN ##########################################################################
+export CVS_RSH=ssh
+export CVSROOT=":ext:kimy@cmscvs.cern.ch:/cvs_server/repositories/CMSSW"
+#############################################################################################
+PS1="[$LOGNAME \d \t]\$PWD> "
+
+p='/Users/Yongsun/test/pileUp/macro'
+
+tmp=kimy@lxplus.cern.ch:/afs/cern.ch/user/k/kimy/temp
+
+alias lt="ls -ltr"
