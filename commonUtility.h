@@ -54,7 +54,7 @@ double getDR( double eta1, double phi1, double eta2, double phi2){
 
 void divideWOerr( TH1* h1, TH1* h2) {  //by Yongsun Jan 26 2012                                                                              
   if ( h1->GetNbinsX() != h2->GetNbinsX() ) {
-    cout << " different bin numbers!!" << endl;
+    cout << " Different bin numbers!!" << endl;
     return;
   }
 
